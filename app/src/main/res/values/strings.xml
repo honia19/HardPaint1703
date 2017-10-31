@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PainterDemo</string>
+    <string name="save_file">Save file</string>
+    <string name="new_tab">New Tab</string>
+    <string name="open_file">Open file</string>
+    <string name="close">Close</string>
 </resources>
