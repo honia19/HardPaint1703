@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PainterDemo</string>
+    <string name="save_file">Сохранить файл</string>
+    <string name="new_tab">Новая вкладка</string>
+    <string name="open_file">Открыть файл</string>
+    <string name="close">Закрыть</string>
+    <string name="hello_world">Привет мир!!!</string>
+</resources>

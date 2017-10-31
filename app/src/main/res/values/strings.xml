@@ -4,4 +4,6 @@
     <string name="new_tab">New Tab</string>
     <string name="open_file">Open file</string>
     <string name="close">Close</string>
+    <string name="hello_world">Hello World!!!</string>
+
 </resources>

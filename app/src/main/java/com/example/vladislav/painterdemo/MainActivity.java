@@ -17,13 +17,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Locale locale = new Locale("fr");
+        Locale locale = new Locale("ru","RU");
         Configuration config = getBaseContext().getResources().getConfiguration();
         config.locale = locale;
         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-
-
-
 
     }
     @Override
