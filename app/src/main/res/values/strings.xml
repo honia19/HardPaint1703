@@ -1,9 +1,16 @@
 <resources>
-    <string name="app_name">PainterDemo</string>
+    <string name="app_name">Block Paint</string>
     <string name="save_file">Save file</string>
     <string name="new_tab">New Tab</string>
     <string name="open_file">Open file</string>
     <string name="close">Close</string>
     <string name="hello_world">Hello World!!!</string>
+    <string name="default_theme">Default theme</string>
+    <string name="Themes">Theme</string>
+    <string name="green_theme">Green theme</string>
+    <string name="english">English</string>
+    <string name="ukrainians">Ukrainians</string>
+    <string name="russian">Russian</string>
+    <string name="languages">Languages</string>
 
 </resources>

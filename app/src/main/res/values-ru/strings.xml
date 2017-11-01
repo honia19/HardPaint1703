@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PainterDemo</string>
+    <string name="app_name">Block Paint</string>
     <string name="save_file">Сохранить файл</string>
     <string name="new_tab">Новая вкладка</string>
     <string name="open_file">Открыть файл</string>
     <string name="close">Закрыть</string>
     <string name="hello_world">Привет мир!!!</string>
+    <string name="default_theme">Дефолтная тема</string>
+    <string name="Themes">Темы</string>
+    <string name="green_theme">Зеленая тема</string>
+    <string name="english">Английский язык</string>
+    <string name="ukrainians">Украинский язык</string>
+    <string name="russian">Русский язык</string>
+    <string name="languages">Языки</string>
 </resources>

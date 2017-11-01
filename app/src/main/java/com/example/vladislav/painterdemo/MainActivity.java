@@ -1,11 +1,16 @@
 package com.example.vladislav.painterdemo;
 
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import java.util.Locale;
@@ -17,11 +22,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        Toolbar toolbar = findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
         Locale locale = new Locale("ru","RU");
         Configuration config = getBaseContext().getResources().getConfiguration();
         config.locale = locale;
         getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this,Preferences.class);
+//                startActivity(intent);
+//            }
+//        });
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -45,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_close:
                 Toast.makeText(getApplicationContext(),"Stub close",Toast.LENGTH_SHORT).show();
                 break;
+            case android.R.id.home:
+                Intent intent = new Intent(MainActivity.this,Preferences.class);
+                startActivity(intent);
+                return true;
+
         }
         return super.onOptionsItemSelected(item);
     }
