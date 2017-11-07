@@ -23,6 +23,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/rb_def_theme"
     android:text="@string/default_theme"
+    android:checked="true"
 
     />
     <RadioButton
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/rb_green_theme"
         android:text="@string/green_theme"
-        android:checked="true"
+
         />
 </RadioGroup>
     <TextView
